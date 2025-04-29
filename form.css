@@ -60,4 +60,12 @@ body {
 
 #signuparea {
     flex: 3;
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#oldaccount {
+    font-weight: normal;
+    font-size: x-small;
 }
