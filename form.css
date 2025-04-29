@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    margin: 0 0 0 0;
+}
+
+@font-face {
+    font-family: odin-font;
+    src: url(./SteelworksVintageDemo-rR98.ttf);
+}
+
+#main {
+    background-color: white;
+    height: 100vh;
+    margin: 0 120px 0 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+#graphicscolumn {
+    flex: 2;
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    font-family: odin-font, sans-serif;
+    font-size: 55px;
+}
+
+#odinpic {
+    width: 1.2em;
+    height: auto;
+}
+
+#logobar {
+    background-color: rgb(0 0 0 / 50%);
+    padding: 10 20 10 20;
+    position: relative;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logotext {
+    color: white;
+}
+
+#credit {
+    position: relative;
+    top: 80%;
+    color: white;
+    font-family: sans-serif;
+    font-size: xx-small;
+    display: flex;
+    justify-content: center;
+}
+
+#credit a {
+    color: white;
+    margin: 0 1px;
+}
+
+#signuparea {
+    flex: 3;
+}
