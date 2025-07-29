@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
     margin: 0 0 0 0;
 }
 
@@ -16,6 +16,7 @@ body {
     flex-direction: row;
 }
 
+/*graphicscolumn**************************/
 #graphicscolumn {
     flex: 2;
     background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
@@ -58,6 +59,7 @@ body {
     margin: 0 1px;
 }
 
+/*signuparea**********************/
 #signuparea {
     flex: 3;
     padding: 30px;
