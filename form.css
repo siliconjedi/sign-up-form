@@ -62,9 +62,20 @@ body {
 /*signuparea**********************/
 #signuparea {
     flex: 3;
-    padding: 30px;
     font-family: sans-serif;
     font-weight: bold;
+    background-color: #F4F5F7;
+    margin: 0 0 0 0;
+}
+
+#signuparea > div {
+    padding: 0 30px 0 30px;
+}
+
+#signup {
+    background-color: white;
+    padding: 0 30px 0 30px;
+    box-shadow: 0 5px 2px 2px #E5E7EB;
 }
 
 #oldaccount {
