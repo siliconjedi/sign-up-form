@@ -80,16 +80,18 @@ body {
     box-shadow: 0 5px 2px 0px #E5E7EB;
 }
 
-#signup label {
+label {
     text-transform: uppercase;
     font-size: xx-small;
     letter-spacing: 1px;
 }
 
-#signup input {
+input {
     border-color: #E5E7EB;
     border-style: solid;
+    border-radius: 3px;
 }
+
 
 #signup > div {
     display: flex;
@@ -139,6 +141,13 @@ body {
     flex-direction: column;
     margin-left: 30px;}
 
+#password:invalid {
+    border-color: red;
+}
+
+#conf_password:invalid {
+    border-color: red;
+}
 
 
 /*buttons*****************/
@@ -164,4 +173,10 @@ body {
     font-weight: bold;
     color: #596D48;
     text-decoration: none;
+}
+input:focus {
+  outline: none;
+border-color: #4A90E2;
+ box-shadow: 0 0 3px black;
+/*  background-color: #f0f8ff;*/
 }
