@@ -68,7 +68,7 @@ body {
     margin: 0 0 0 0;
 }
 
-#signuparea > div {
+#blurb {
     padding: 85px 150px 30px 30px;
 }
 
@@ -78,7 +78,26 @@ body {
     box-shadow: 0 5px 2px 0px #E5E7EB;
 }
 
+#buttonarea {
+    padding: 15px 0 0 30px;
+}
+#buttonarea button {
+    background-color: #596D48;
+    color: white;
+    padding: 5px 25px 5px 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: x-small;
+    border-radius: 5px;
+}
+
 #oldaccount {
     font-weight: normal;
     font-size: x-small;
+}
+
+#oldaccount a {
+    font-weight: bold;
+    color: #596D48;
+    text-decoration: none;
 }
