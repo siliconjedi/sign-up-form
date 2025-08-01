@@ -69,13 +69,13 @@ body {
 }
 
 #signuparea > div {
-    padding: 0 30px 0 30px;
+    padding: 85px 150px 30px 30px;
 }
 
 #signup {
     background-color: white;
     padding: 0 30px 0 30px;
-    box-shadow: 0 5px 2px 2px #E5E7EB;
+    box-shadow: 0 5px 2px 0px #E5E7EB;
 }
 
 #oldaccount {
