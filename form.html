@@ -28,20 +28,40 @@
             </div>
             <form id="signup" action="https://httpbin.org/post" method="post">
                 <p>Let's do this!</p>
-                <label for="first_name">First Name</label>
-                <input type="text" id="first_name" name="first_name"
-                placeholder="Thor" required>
-                <label for="last_name">Last Name</label>
-                <input type="text" id="last_name" name="last_name"
-                placeholder="Odinson" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="phone_number">Phone Number</label>
-                <input type="number" id="phone_number" name="phone_number">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" minlength="8" required>
-                <label for="conf_password">Confirm Password</label>
-                <input type="password" id="conf_password" name="conf_password" minlength="8" required>
+                <div>
+                    <div id="row1">
+                        <div id="fname">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name"
+                            placeholder="Thor" required>
+                        </div>
+                        <div id="lname">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name"
+                            placeholder="Odinson" required>
+                        </div>
+                    </div>
+                    <div id="row2">
+                        <div id="em">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div id="tn">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="number" id="phone_number" name="phone_number">
+                        </div>
+                    </div>
+                    <div id="row3">
+                        <div id="pw">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" minlength="8" required>
+                        </div>
+                        <div id="cpw">
+                            <label for="conf_password">Confirm Password</label>
+                            <input type="password" id="conf_password" name="conf_password" minlength="8" required>
+                        </div>
+                    </div>
+                </div>
             </form>
             <div id="buttonarea">    
                 <button form="signup" type="submit">Create Account</button>
